@@ -76,7 +76,7 @@ const SearchManufacturer = ({
                 filteredManufacturers.map((item) => (
                   <ComboboxOption
                     key={item}
-                    className="relative search-manufacturer__option data-[focus]:bg-primary-blue data-[focus]:text-white text-gray-900"
+                    className="relative search-manufacturer__option z-10 data-[focus]:bg-primary-blue data-[focus]:text-white text-gray-900 bg-white"
                     value={item}
                   >
                     {({ selected }) => (
